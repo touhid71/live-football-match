@@ -1,0 +1,159 @@
+body
+{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section
+{
+    background-color: rgba(22, 22, 22, 1);
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    height: 705px;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.half-width
+{
+    width: 32%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.half-width-pic{
+    width: 50%;
+    float: left;
+    padding-left: 7%;
+    margin-top: 4%;
+    padding-right: 10px;
+}
+
+.link-button
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(221, 0, 0, 1);
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.banner-section
+{
+    height: 980px;
+    width:100%;
+    margin-left: 20px;
+   
+    
+  
+    
+   
+}
+
+.one-width
+{
+    width: 15%;
+    float: left;
+    margin-left:44px;
+    margin-right: 3%;
+    margin-top:5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 120px;
+    padding-bottom: 2%;
+}
+
+.btn-group .btn{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(22, 22, 22, 1);
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    width: 110px;
+    display: block;
+    border-radius: 10px;
+    margin-left: 12%;
+    padding-right: 25px;
+    padding-left:30px;
+    
+}
+
+
+.btn-group .btn:hover
+{
+    background-color: rgba(221, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-group .btn:active
+{
+    background-color: rgba(221, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+#background
+{
+    background-color: rgba(22, 22, 22, 1);
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: rgba(22, 22, 22, 1);
+    border: 2px solid rgba(22, 22, 22, 1);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.block
+{
+    margin: 10px;
+    border: 1px solid rgba(22, 22, 22, 0.7);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.footer-section
+{
+    background-color: rgba(22, 22, 22, 1);
+    margin-top: 100px;
+    height: 500px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.link-section
+{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.button
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 80px;
+    width: 10%;
+    float: left;
+}
+
+hr
+{
+    border-color: rgba(255, 255, 255, 0.1);
+    margin: 25px;
+}
+.font_awesome{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
